@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'clan-book';
+  src: url("../fonts/clan-book-webfont.eot");
+  src: url("../fonts/clan-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clan-book-webfont.woff") format("woff"), url("../fonts/clan-book-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'clan-med';
+  src: url("../fonts/clan-med-webfont.eot");
+  src: url("../fonts/clan-med-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clan-med-webfont.woff") format("woff"), url("../fonts/clan-med-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "clan-book", sans-serif; }
+
+h1 {
+  font-family: "clan-med", sans-serif; }
+
+.logo {
+  height: 20px;
+  margin: 15px; }
+
+.navbar-default {
+  background-color: #FFF;
+  border: none;
+  font-size: 16px;
+  margin: 1px;
+  padding: 1px; }
+
+.navbar-right {
+  font-size: 13px; }
+
+.hero {
+  position: relative;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/hero-bg-1.jpg); }
+
+.hero-dark {
+  position: absolute;
+  background-color: #333333;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.7; }
+
+.hero-desc {
+  text-align: right;
+  padding: 140px 30px 0 0; }
+
+.hero .phone {
+  margin: 10px;
+  height: 80vh; }
+
+.hero .btn-primary {
+  font-size: 15px;
+  border-radius: 30px;
+  color: #1FBAD6;
+  background-color: white;
+  font-family: "clan-book", sans-serif;
+  border-color: white; }
+
+.hero .btn-secondary {
+  margin-left: 30px;
+  font-size: 15px;
+  border-radius: 30px;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  font-family: "clan-book", sans-serif; }
+
+.hero .btn-primary:hover {
+  color: #333333;
+  cursor: pointer; }
+
+.hero .btn-secondary:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer; }
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #1FBAD6;
+  background-color: #FFFFFF;
+  cursor: pointer; }
+
+.hero-desc > p {
+  margin-bottom: 40px;
+  font-size: 18px; }
+
+#fonctionnement i {
+  color: #1FBAD6;
+  font-size: 40px;
+  margin-top: 100px;
+  padding-left: 164px; }
+
+#fonctionnement h1 {
+  font-size: 20px;
+  font-family: "clan-book", sans-serif;
+  text-align: center; }
+
+#fonctionnement p {
+  text-align: center;
+  margin-bottom: 100px; }
+
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px; }
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  border-bottom: solid 2px #1FBAD6;
+  margin: 30px auto;
+  margin-top: 20px; }
+
+.app-header p {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 15px; }
+
+#application .phone img {
+  margin: 0 auto; }
+
+#application {
+  background-color: #FAFAFA; }
+
+.element i {
+  color: #1FBAD6;
+  font-size: 30px; }
+
+.element h3 {
+  font-size: 18px;
+  font-family: "clan-book", sans-serif;
+  margin-bottom: 70; }
+
+.element-left {
+  text-align: right; }
+
+.element.element-left {
+  position: relative; }
+
+.element-right {
+  text-align: left; }
+
+.element.element-right {
+  position: relative; }
+
+#application .element-left:first-child,
+#application .element-right:first-child {
+  margin-top: 110px; }
+
+#application i {
+  position: absolute; }
+
+#application .app-header h1 {
+  margin-top: 0; }
+
+.element.element-left i {
+  right: -50px; }
+
+.element.element-right i {
+  left: -50px; }
+
+#temoignages h2 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px; }
+
+#temoignages p {
+  text-align: center;
+  margin-bottom: 100px; }
+
+#temoignages {
+  text-align: center; }
+
+.carousel-inner .item {
+  background-color: white;
+  text-align: center;
+  margin-top: 100px; }
+
+.carousel-inner .item > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px; }
+
+/*# sourceMappingURL=styles.css.map */
