@@ -1,2 +1,1 @@
-# JeanTed.github.io
-Projet Uber
+Welcome to Uber
